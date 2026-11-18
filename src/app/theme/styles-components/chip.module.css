@@ -1,0 +1,29 @@
+.label {
+  min-height: 40px;
+  padding-inline: 16px;
+  border: 1px solid #e7e7e7;
+  border-radius: 999px;
+  background-color: #fbfbfb;
+  color: #0b0b0b;
+  font-weight: 500;
+  transition:
+    background-color 140ms ease,
+    border-color 140ms ease,
+    color 140ms ease;
+}
+
+.label:hover {
+  border-color: #f14e1d;
+  background-color: #fff7ed;
+}
+
+.input:checked + .label {
+  border-color: #f14e1d;
+  background-color: #f14e1d;
+  color: #fff;
+}
+
+.input:focus-visible + .label {
+  outline: 2px solid color-mix(in srgb, var(--mantine-color-pizza-6) 40%, transparent);
+  outline-offset: 2px;
+}

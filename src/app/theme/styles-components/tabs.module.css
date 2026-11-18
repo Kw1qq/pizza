@@ -1,0 +1,23 @@
+.list {
+  border-bottom-color: #e7e7e7;
+}
+
+.tab {
+  color: #969696;
+  font-weight: 500;
+}
+
+.tab:hover {
+  background-color: #fff7ed;
+  color: #7c2d12;
+}
+
+.tab[data-active] {
+  color: #f14e1d;
+  font-weight: 700;
+}
+
+.tab:focus-visible {
+  outline: 2px solid var(--mantine-color-pizza-6);
+  outline-offset: 2px;
+}

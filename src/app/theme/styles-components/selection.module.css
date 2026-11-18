@@ -1,0 +1,21 @@
+.input {
+  border-color: #b7b7b7;
+}
+
+.input:checked {
+  border-color: var(--mantine-color-pizza-6);
+  background-color: var(--mantine-color-pizza-6);
+}
+
+.label {
+  color: #0b0b0b;
+  font-weight: 500;
+}
+
+.description {
+  color: #969696;
+}
+
+.error {
+  color: #b40c0a;
+}

@@ -1,0 +1,25 @@
+.content {
+  border-radius: 24px;
+}
+
+.header {
+  padding: 24px 24px 12px;
+}
+
+.body {
+  padding: 16px 24px 24px;
+}
+
+.title {
+  color: #0b0b0b;
+  font-weight: 700;
+}
+
+.close {
+  color: #969696;
+}
+
+.close:hover {
+  background-color: #f5f5f5;
+  color: #0b0b0b;
+}

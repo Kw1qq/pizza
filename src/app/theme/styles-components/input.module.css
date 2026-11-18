@@ -1,0 +1,47 @@
+.wrapper {
+  color: #0b0b0b;
+}
+
+.input {
+  --input-radius: 999px;
+  --input-bd: #b7b7b7;
+  --input-bg: #fbfbfb;
+  --input-color: #0b0b0b;
+  --input-placeholder-color: #b7b7b7;
+  --input-bd-focus: var(--mantine-color-pizza-6);
+
+  min-height: 42px;
+  border-color: #b7b7b7;
+  background-color: #fbfbfb;
+  color: #0b0b0b;
+  transition:
+    border-color 140ms ease,
+    box-shadow 140ms ease;
+}
+
+.input::placeholder {
+  color: #b7b7b7;
+}
+
+.input:focus {
+  border-color: var(--mantine-color-pizza-6);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--mantine-color-pizza-6) 16%, transparent);
+}
+
+.label {
+  margin-bottom: 4px;
+  color: #0b0b0b;
+  font-weight: 500;
+}
+
+.description {
+  color: #969696;
+}
+
+.error {
+  color: #b40c0a;
+}
+
+.section {
+  color: #969696;
+}

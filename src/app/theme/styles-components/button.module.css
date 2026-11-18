@@ -1,0 +1,18 @@
+.root {
+  --button-bg: var(--mantine-color-pizza-6);
+  --button-hover: var(--mantine-color-pizza-7);
+  --button-color: #fff;
+  --button-bd: transparent;
+
+  min-height: 52px;
+  padding-inline: 24px;
+  font-weight: 500;
+  transition:
+    background-color 140ms ease,
+    box-shadow 140ms ease;
+}
+
+.root:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--mantine-color-pizza-6) 32%, transparent);
+  outline-offset: 2px;
+}
